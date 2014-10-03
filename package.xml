@@ -5,8 +5,8 @@
 		<packagename language="de">Community Gallery: Bild-Autor-Kommentar-Icon</packagename>
 		<packagedescription><![CDATA[Marks the comments of the image author with an icon]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Markiert die Kommentare des Bild-Autors mit einem Icon]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2014-07-22</date>
+		<version>1.0.1</version>
+		<date>2014-09-30</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -26,5 +26,9 @@
 		
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="templateListener">templateListener.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="template" application="gallery">templates.tar</instruction>
 	</instructions>
 </package>
