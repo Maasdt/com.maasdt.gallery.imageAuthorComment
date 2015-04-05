@@ -3,6 +3,8 @@ Community Gallery: Image Author Comment Icon
 
 Community Gallery: Image Author Comment Icon marks the comments of the image author with an icon.
 
+**This package is not maintained anymore!**
+
 
 License
 -------
